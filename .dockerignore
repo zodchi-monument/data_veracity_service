@@ -1,0 +1,6 @@
+ci
+docker
+logs/**
+.git
+fitdata.csv
+data.txt

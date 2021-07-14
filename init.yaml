@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-init
+data:
+  init:
+    "1":
+      "tags":
+        - F74-2
+        - F74
+        - F3001
+        - F78
+        - F3132
+        - F81
+        - GFU2:F80
+        - F3002
+        - GFU2:F82
+        - F143
+        - F138
+        - F77
+        - F77A
+        - F145
+        - F2422
+        - F76-1
+        - F3A
+        - F78.1
+        - Fl28
+      "params":
+        "type": "chebishev"
+    "2":
+      "tags":
+        - FI71
+        - FI104
+      "params":
+        "zero_switch": True
+        "type": "chebishev"

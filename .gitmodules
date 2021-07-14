@@ -1,0 +1,3 @@
+; [submodule "ci/ml-verification-chart"]
+;   path = ci/ml-verification-chart
+;   url = ../../../evj/infra/ml-verification-chart.git
